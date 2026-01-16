@@ -214,7 +214,7 @@ const getStyles = ({
     }
     .rank-circle {
       stroke: ${ringColor};
-      stroke-dasharray: 250;
+      stroke-dasharray: 400;
       fill: none;
       stroke-width: 6;
       stroke-linecap: round;
