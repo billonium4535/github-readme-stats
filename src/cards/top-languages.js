@@ -481,7 +481,7 @@ const renderDonutVerticalLayout = (langs, totalLanguageSize, statsFormat) => {
   // Generate each donut vertical chart part
   for (const lang of langs) {
     const percentage = (lang.size / totalLanguageSize) * 100;
-    const circleLength = totalCircleLength * (percentage / 100);
+    const circleLength = 400;
     const delay = startDelayCoefficient * 100;
 
     circles.push(`
